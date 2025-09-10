@@ -9,3 +9,10 @@ background-color: orange;
 li{
     float: left;
 }
+
+li a{ 
+display: block;
+color: lightsalmon;
+
+
+}
