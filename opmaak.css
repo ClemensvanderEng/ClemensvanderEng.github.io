@@ -21,4 +21,5 @@ text-decoration: none;
 
 li a:hover{ 
     background-color: red;
+    color: rgb(71, 255, 71);
 }
