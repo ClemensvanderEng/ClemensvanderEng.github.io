@@ -1,7 +1,7 @@
 ul{
 list-style-type: none;
-margin: 0;
-padding: -24;
+margin: -10;
+padding: 0;
 overflow: hidden;
 background-color: orange;
 width: 35%;
