@@ -12,12 +12,12 @@ li{
 
 li a{ 
 display: block;
-color: lightsalmon;
+color: rgb(0, 0, 0);
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
 
-li a :hover{ 
+li a:hover{ 
     background-color: red;
 }
