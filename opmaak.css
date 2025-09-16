@@ -5,6 +5,7 @@ padding: 0;
 overflow: hidden;
 background-color: orange;
 width: 40%;
+position: fixed;
 }
 
 li{
