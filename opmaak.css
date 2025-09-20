@@ -11,6 +11,7 @@ position: fixed;
 li{
     float: left;
 }
+div{ float: right;}
 
 li a{ 
 display: block;
