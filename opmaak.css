@@ -28,5 +28,6 @@ li a:hover{
 }
 
 .flood {float: none; margin: 40%;
-position: -100px;
+position: relative
+top: -40px
 }
