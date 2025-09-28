@@ -1,3 +1,7 @@
+
+/*padding en margin 0 betekent dat de tekst tegen de linker kan aan zit en de boven kant.
+background color gaat over de kleur van het menu met width over de lengte van de menu balk
+position fixed zorgt er voor dat je menu altijd zicht baar is hoe ver je ook naar beneden scrolt*/
 ul{
 list-style-type: none;
 margin: 0;
@@ -7,12 +11,15 @@ background-color: orange;
 width: 40%;
 position: fixed;
 }
-/**/
+/*dit zorgt er voor dat mijn lijsten links drijven*/
 li{
     float: left;
+/*dit zorgt er voor dat mijn divs rechts drijven*/
 }
 div{ float: right;}
-
+/* display block zorgt er voor dat het menu blokken heeft. coller is voor de tekst kleur. 
+text-align center zorgt er voor dat de tekst gecentreert staat. padding zorgt er voor dat 
+de tekst op juiste positie in het blokje staat. */
 li a{ 
 display: block;
 color: rgb(0, 0, 0);
@@ -20,13 +27,13 @@ text-align: center;
 padding: 10px 10px;
 text-decoration: none;
 }
-
+/* hover zorgt er voor als je over de menu balk scrolt dat de achtergrond kleur verandert*/
 li a:hover{ 
     background-color: rgb(255, 204, 108);
     color: rgb(0, 0, 0);
 
 }
-
+/*dit is een class met 40% margin wat er voor zorgt dat die in het midden zit. en top zorgt er voor dat het aan sluit aan de top.*/
 .flood {float: none; margin: 40%;
 position: relative;
 top: -440px

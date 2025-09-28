@@ -1,11 +1,21 @@
+<!--DOCTYPE html moet boven elke html pagina staan om het html te kunnen werken.-->
 <!DOCTYPE html>
 <html>
   <head>
+<!--met <link> kan je css aan html koppelen dit staat in de head van elke pagina. 
+zodat elke pagina de opmaak waar css voor zorgt heeft -->    
     <link rel="stylesheet" href="opmaak.css">
 </head>
 
 <body> 
-      
+<!--ul staat voor unordertlist en in een ul staan een of meerdere li listitem 
+de volgorde waarin ze staan zo komen ze ook in je website. alleen met een ul met li kom je nog 
+steeds niet op een andere pagina daar voor gebreuken we een <a href="naam pagina">naam die te zien is op website</a> 
+met href kan een link aangesproken woorden.
+Mijn html pagina's staan in een aparte map dus je moet index.html nog wat vertellen om te
+zorgen dat hij de andere pagina's kan vinden
+dat doe je met html map naam dan een / en daarna de naam van de pagina dus voorbeeld is 
+html/kleurmodellen.html -->      
   <ul>
     <li><a href="index.html">homepagina</a></li>
     <li><a href="html/algemeneinformatie.html">algemeneinformatie</a></li>
@@ -16,6 +26,7 @@
 <br>
 <br>
 <br>  
+<!--<br> is een enter daarmee ga je naar de volgende regel-->
   Ik ben clemens uit A5B  van het vlietlandcollege.
 <br>
   Dit is de website die ik voo rhet vak informatica heb gemaakt.
@@ -28,7 +39,10 @@
   expirementeren met bijvoorbeeld kleur.
 
 <br>
-  <img src="/Fotos/homeVLC.png" width="250" height="192">
+<!--met img kan je foto's in je website zetten -->
+  <img src="Fotos/homeVLC.png" width="250" height="192">
+<!--met class kan je een spesefiek gedeelte aan spreken in css. in de flooter staat je contact gegevens.
+div is ook een manier om een gedeelte met css aan te spreken-->
 <div class="flood">
         <flooter>
           © ; 2025 school project
